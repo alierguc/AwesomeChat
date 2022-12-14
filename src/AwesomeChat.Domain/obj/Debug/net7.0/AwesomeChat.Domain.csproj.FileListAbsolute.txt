@@ -1,0 +1,12 @@
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Domain\bin\Debug\net7.0\AwesomeChat.Domain.deps.json
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Domain\bin\Debug\net7.0\AwesomeChat.Domain.dll
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Domain\bin\Debug\net7.0\AwesomeChat.Domain.pdb
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Domain\obj\Debug\net7.0\AwesomeChat.Domain.csproj.AssemblyReference.cache
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Domain\obj\Debug\net7.0\AwesomeChat.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Domain\obj\Debug\net7.0\AwesomeChat.Domain.AssemblyInfoInputs.cache
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Domain\obj\Debug\net7.0\AwesomeChat.Domain.AssemblyInfo.cs
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Domain\obj\Debug\net7.0\AwesomeChat.Domain.csproj.CoreCompileInputs.cache
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Domain\obj\Debug\net7.0\AwesomeChat.Domain.dll
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Domain\obj\Debug\net7.0\refint\AwesomeChat.Domain.dll
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Domain\obj\Debug\net7.0\AwesomeChat.Domain.pdb
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Domain\obj\Debug\net7.0\ref\AwesomeChat.Domain.dll

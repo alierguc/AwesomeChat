@@ -1,0 +1,71 @@
+2022-12-08 22:43:07.603 +03:00 [INF] ********************************************************************************
+2022-12-08 22:43:07.625 +03:00 [INF] Elastic APM .NET Agent, version: 1.19.0.0, file creation time: 8.12.2022 12:02:48 UTC
+2022-12-08 22:43:07.628 +03:00 [INF] Process ID: 38900
+2022-12-08 22:43:07.630 +03:00 [INF] Process Name: AwesomeChat.API
+2022-12-08 22:43:07.631 +03:00 [INF] Operating System: Microsoft Windows 10.0.19045
+2022-12-08 22:43:07.632 +03:00 [INF] CPU architecture: X64
+2022-12-08 22:43:07.633 +03:00 [INF] Host: DESKTOP-4KE4D8K
+2022-12-08 22:43:07.634 +03:00 [INF] Runtime: .NET 7.0.0
+2022-12-08 22:43:07.635 +03:00 [INF] Time zone: (UTC+03:00) İstanbul
+2022-12-08 22:43:07.636 +03:00 [INF] ********************************************************************************
+2022-12-08 22:43:07.644 +03:00 [WRN] {AbstractConfigurationReader (MicrosoftExtensionsConfig)} Service name provided in configuration (AwesomeChat.API) was adapted to AwesomeChat_API
+2022-12-08 22:43:07.647 +03:00 [INF] {AbstractConfigurationReader (MicrosoftExtensionsConfig)} The agent was started without a service version. The service version will be automatically discovered.
+2022-12-08 22:43:07.649 +03:00 [INF] {AbstractConfigurationReader (MicrosoftExtensionsConfig)} The agent was started without a service version. The automatically discovered service version is 1.0.0
+2022-12-08 22:43:07.775 +03:00 [INF] {MetricsCollector} Collecting metrics in 30000 milliseconds interval
+2022-12-08 22:43:07.967 +03:00 [INF] {CentralConfigurationFetcher} Updating ConfigurationStore. New central configuration: [ETag: `"-"']{}
+2022-12-08 22:43:07.980 +03:00 [INF] {ConfigurationStore} Replaced current snapshot. Old: local + central (ETag: `"-"'). New: local + central (ETag: `"-"').
+2022-12-08 22:43:08.168 +03:00 [INF] Now listening on: http://localhost:5015
+2022-12-08 22:43:08.172 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-08 22:43:08.174 +03:00 [INF] Hosting environment: Development
+2022-12-08 22:43:08.175 +03:00 [INF] Content root path: C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.API
+2022-12-08 22:43:09.146 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5015/swagger/index.html - -
+2022-12-08 22:43:09.411 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5015/swagger/index.html - - - 200 - text/html;charset=utf-8 270.0131ms
+2022-12-08 22:43:09.430 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5015/_framework/aspnetcore-browser-refresh.js - -
+2022-12-08 22:43:09.437 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5015/_framework/aspnetcore-browser-refresh.js - - - 200 11999 application/javascript;+charset=utf-8 5.7618ms
+2022-12-08 22:43:09.441 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5015/_vs/browserLink - -
+2022-12-08 22:43:09.473 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5015/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.9441ms
+2022-12-08 22:43:09.597 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5015/swagger/v1/swagger.json - -
+2022-12-08 22:43:09.751 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5015/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 154.2359ms
+2022-12-08 22:43:13.400 +03:00 [WRN] Health check Elastic Search with status "Degraded" completed after 326.349ms with message 'null'
+2022-12-08 23:14:02.779 +03:00 [INF] ********************************************************************************
+2022-12-08 23:14:02.805 +03:00 [INF] Elastic APM .NET Agent, version: 1.19.0.0, file creation time: 8.12.2022 12:02:48 UTC
+2022-12-08 23:14:02.807 +03:00 [INF] Process ID: 12888
+2022-12-08 23:14:02.810 +03:00 [INF] Process Name: AwesomeChat.API
+2022-12-08 23:14:02.811 +03:00 [INF] Operating System: Microsoft Windows 10.0.19045
+2022-12-08 23:14:02.813 +03:00 [INF] CPU architecture: X64
+2022-12-08 23:14:02.815 +03:00 [INF] Host: DESKTOP-4KE4D8K
+2022-12-08 23:14:02.816 +03:00 [INF] Runtime: .NET 7.0.0
+2022-12-08 23:14:02.817 +03:00 [INF] Time zone: (UTC+03:00) İstanbul
+2022-12-08 23:14:02.818 +03:00 [INF] ********************************************************************************
+2022-12-08 23:14:02.823 +03:00 [WRN] {AbstractConfigurationReader (MicrosoftExtensionsConfig)} Service name provided in configuration (AwesomeChat.API) was adapted to AwesomeChat_API
+2022-12-08 23:14:02.827 +03:00 [INF] {AbstractConfigurationReader (MicrosoftExtensionsConfig)} The agent was started without a service version. The service version will be automatically discovered.
+2022-12-08 23:14:02.829 +03:00 [INF] {AbstractConfigurationReader (MicrosoftExtensionsConfig)} The agent was started without a service version. The automatically discovered service version is 1.0.0
+2022-12-08 23:14:02.989 +03:00 [INF] {MetricsCollector} Collecting metrics in 30000 milliseconds interval
+2022-12-08 23:14:03.109 +03:00 [INF] {CentralConfigurationFetcher} Updating ConfigurationStore. New central configuration: [ETag: `"-"']{}
+2022-12-08 23:14:03.112 +03:00 [INF] {ConfigurationStore} Replaced current snapshot. Old: local + central (ETag: `"-"'). New: local + central (ETag: `"-"').
+2022-12-08 23:14:03.246 +03:00 [INF] Now listening on: http://localhost:5015
+2022-12-08 23:14:03.250 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-08 23:14:03.251 +03:00 [INF] Hosting environment: Development
+2022-12-08 23:14:03.252 +03:00 [INF] Content root path: C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.API
+2022-12-08 23:14:03.832 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5015/swagger/index.html - -
+2022-12-08 23:14:04.083 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5015/swagger/index.html - - - 200 - text/html;charset=utf-8 254.4408ms
+2022-12-08 23:14:04.104 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5015/_framework/aspnetcore-browser-refresh.js - -
+2022-12-08 23:14:04.108 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5015/_framework/aspnetcore-browser-refresh.js - - - 200 11999 application/javascript;+charset=utf-8 3.9628ms
+2022-12-08 23:14:04.112 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5015/_vs/browserLink - -
+2022-12-08 23:14:04.133 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5015/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.5668ms
+2022-12-08 23:14:04.275 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5015/swagger/v1/swagger.json - -
+2022-12-08 23:14:04.440 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5015/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 164.5044ms
+2022-12-08 23:14:08.468 +03:00 [WRN] Health check Elastic Search with status "Degraded" completed after 283.5553ms with message 'null'
+2022-12-08 23:14:08.854 +03:00 [INF] Start processing HTTP request POST http://localhost:5341/api/events/raw?apiKey=hA1D36MyVUYSesPi63To
+2022-12-08 23:14:08.857 +03:00 [INF] Sending HTTP request POST http://localhost:5341/api/events/raw?apiKey=hA1D36MyVUYSesPi63To
+2022-12-08 23:14:08.912 +03:00 [INF] Received HTTP response headers after 51.2082ms - 201
+2022-12-08 23:14:08.918 +03:00 [INF] End processing HTTP request after 66.2544ms - 201
+2022-12-08 23:14:09.859 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5015/api/v1/Message/Message/GetTestMessage - -
+2022-12-08 23:14:09.893 +03:00 [INF] Executing endpoint 'AwesomeChat.API.Controllers.v1.MessageController.GetTestMessage (AwesomeChat.API)'
+2022-12-08 23:14:09.913 +03:00 [INF] Route matched with {action = "GetTestMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTestMessage() on controller AwesomeChat.API.Controllers.v1.MessageController (AwesomeChat.API).
+2022-12-08 23:14:09.925 +03:00 [INF] Executing action method AwesomeChat.API.Controllers.v1.MessageController.GetTestMessage (AwesomeChat.API) - Validation state: "Valid"
+2022-12-08 23:14:09.931 +03:00 [INF] Executed action method AwesomeChat.API.Controllers.v1.MessageController.GetTestMessage (AwesomeChat.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.9753ms.
+2022-12-08 23:14:09.941 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-12-08 23:14:09.949 +03:00 [INF] Executed action AwesomeChat.API.Controllers.v1.MessageController.GetTestMessage (AwesomeChat.API) in 26.9616ms
+2022-12-08 23:14:09.951 +03:00 [INF] Executed endpoint 'AwesomeChat.API.Controllers.v1.MessageController.GetTestMessage (AwesomeChat.API)'
+2022-12-08 23:14:09.966 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5015/api/v1/Message/Message/GetTestMessage - - - 200 - text/plain;+charset=utf-8 106.6223ms

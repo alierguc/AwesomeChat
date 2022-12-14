@@ -1,0 +1,15 @@
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\tests\AwesomeChat.Client.ConsoleTest\bin\Debug\net7.0\AwesomeChat.Client.ConsoleTest.exe
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\tests\AwesomeChat.Client.ConsoleTest\bin\Debug\net7.0\AwesomeChat.Client.ConsoleTest.deps.json
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\tests\AwesomeChat.Client.ConsoleTest\bin\Debug\net7.0\AwesomeChat.Client.ConsoleTest.runtimeconfig.json
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\tests\AwesomeChat.Client.ConsoleTest\bin\Debug\net7.0\AwesomeChat.Client.ConsoleTest.dll
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\tests\AwesomeChat.Client.ConsoleTest\bin\Debug\net7.0\AwesomeChat.Client.ConsoleTest.pdb
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\tests\AwesomeChat.Client.ConsoleTest\obj\Debug\net7.0\AwesomeChat.Client.ConsoleTest.csproj.AssemblyReference.cache
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\tests\AwesomeChat.Client.ConsoleTest\obj\Debug\net7.0\AwesomeChat.Client.ConsoleTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\tests\AwesomeChat.Client.ConsoleTest\obj\Debug\net7.0\AwesomeChat.Client.ConsoleTest.AssemblyInfoInputs.cache
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\tests\AwesomeChat.Client.ConsoleTest\obj\Debug\net7.0\AwesomeChat.Client.ConsoleTest.AssemblyInfo.cs
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\tests\AwesomeChat.Client.ConsoleTest\obj\Debug\net7.0\AwesomeChat.Client.ConsoleTest.csproj.CoreCompileInputs.cache
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\tests\AwesomeChat.Client.ConsoleTest\obj\Debug\net7.0\AwesomeChat.Client.ConsoleTest.dll
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\tests\AwesomeChat.Client.ConsoleTest\obj\Debug\net7.0\refint\AwesomeChat.Client.ConsoleTest.dll
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\tests\AwesomeChat.Client.ConsoleTest\obj\Debug\net7.0\AwesomeChat.Client.ConsoleTest.pdb
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\tests\AwesomeChat.Client.ConsoleTest\obj\Debug\net7.0\AwesomeChat.Client.ConsoleTest.genruntimeconfig.cache
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\tests\AwesomeChat.Client.ConsoleTest\obj\Debug\net7.0\ref\AwesomeChat.Client.ConsoleTest.dll

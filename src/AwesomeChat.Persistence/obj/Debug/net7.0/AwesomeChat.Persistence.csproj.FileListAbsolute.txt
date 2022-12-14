@@ -1,0 +1,17 @@
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Persistence\bin\Debug\net7.0\AwesomeChat.Persistence.deps.json
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Persistence\bin\Debug\net7.0\AwesomeChat.Persistence.runtimeconfig.json
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Persistence\bin\Debug\net7.0\AwesomeChat.Persistence.dll
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Persistence\bin\Debug\net7.0\AwesomeChat.Persistence.pdb
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Persistence\bin\Debug\net7.0\AwesomeChat.Domain.dll
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Persistence\bin\Debug\net7.0\AwesomeChat.Domain.pdb
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Persistence\obj\Debug\net7.0\AwesomeChat.Persistence.csproj.AssemblyReference.cache
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Persistence\obj\Debug\net7.0\AwesomeChat.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Persistence\obj\Debug\net7.0\AwesomeChat.Persistence.AssemblyInfoInputs.cache
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Persistence\obj\Debug\net7.0\AwesomeChat.Persistence.AssemblyInfo.cs
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Persistence\obj\Debug\net7.0\AwesomeChat.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Persistence\obj\Debug\net7.0\AwesomeChat.Persistence.csproj.CopyComplete
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Persistence\obj\Debug\net7.0\AwesomeChat.Persistence.dll
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Persistence\obj\Debug\net7.0\refint\AwesomeChat.Persistence.dll
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Persistence\obj\Debug\net7.0\AwesomeChat.Persistence.pdb
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Persistence\obj\Debug\net7.0\AwesomeChat.Persistence.genruntimeconfig.cache
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Persistence\obj\Debug\net7.0\ref\AwesomeChat.Persistence.dll

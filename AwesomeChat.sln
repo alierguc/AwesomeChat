@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E5D94FD8-BE92-4647-A255-75DD502FBE6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{A12D166C-A00F-4CD0-86CF-1F11F8E3BA06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeChat.Domain", "src\AwesomeChat.Domain\AwesomeChat.Domain.csproj", "{C02D71A8-3F96-42D1-991D-A029E6226717}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeChat.Application", "src\AwesomeChat.Application\AwesomeChat.Application.csproj", "{65D0DFDB-B1CE-4F3E-BA6F-F3AE81FBE255}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeChat.API", "src\AwesomeChat.API\AwesomeChat.API.csproj", "{B25FD932-47C0-4C46-A219-87245ECD34AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1D429277-1A82-409D-921C-03061898712D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeChat.UnitTest", "tests\AwesomeChat.UnitTest\AwesomeChat.UnitTest.csproj", "{56E6179D-4C56-4364-B3D6-053B40C949DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeChat.IntegrationTest", "tests\AwesomeChat.IntegrationTest\AwesomeChat.IntegrationTest.csproj", "{9DEFB2BE-9AC4-4495-B4E9-EA936B324B29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeChat.Persistence", "src\AwesomeChat.Persistence\AwesomeChat.Persistence.csproj", "{4832003E-E911-4F08-A2DE-2BE151042C95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeChat.Client.ConsoleTest", "src\tests\AwesomeChat.Client.ConsoleTest\AwesomeChat.Client.ConsoleTest.csproj", "{37E5A46B-6D48-45BB-A954-2094AC812FD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeChat.BechmarkingTest", "src\tests\AwesomeChat.BechmarkingTest\AwesomeChat.BechmarkingTest.csproj", "{C15AB336-75BD-4967-817C-3C5436673C9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C02D71A8-3F96-42D1-991D-A029E6226717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C02D71A8-3F96-42D1-991D-A029E6226717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C02D71A8-3F96-42D1-991D-A029E6226717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C02D71A8-3F96-42D1-991D-A029E6226717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D0DFDB-B1CE-4F3E-BA6F-F3AE81FBE255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D0DFDB-B1CE-4F3E-BA6F-F3AE81FBE255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D0DFDB-B1CE-4F3E-BA6F-F3AE81FBE255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D0DFDB-B1CE-4F3E-BA6F-F3AE81FBE255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25FD932-47C0-4C46-A219-87245ECD34AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25FD932-47C0-4C46-A219-87245ECD34AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25FD932-47C0-4C46-A219-87245ECD34AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25FD932-47C0-4C46-A219-87245ECD34AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E6179D-4C56-4364-B3D6-053B40C949DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E6179D-4C56-4364-B3D6-053B40C949DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E6179D-4C56-4364-B3D6-053B40C949DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E6179D-4C56-4364-B3D6-053B40C949DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DEFB2BE-9AC4-4495-B4E9-EA936B324B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DEFB2BE-9AC4-4495-B4E9-EA936B324B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DEFB2BE-9AC4-4495-B4E9-EA936B324B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DEFB2BE-9AC4-4495-B4E9-EA936B324B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4832003E-E911-4F08-A2DE-2BE151042C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4832003E-E911-4F08-A2DE-2BE151042C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4832003E-E911-4F08-A2DE-2BE151042C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4832003E-E911-4F08-A2DE-2BE151042C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E5A46B-6D48-45BB-A954-2094AC812FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E5A46B-6D48-45BB-A954-2094AC812FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E5A46B-6D48-45BB-A954-2094AC812FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E5A46B-6D48-45BB-A954-2094AC812FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15AB336-75BD-4967-817C-3C5436673C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15AB336-75BD-4967-817C-3C5436673C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15AB336-75BD-4967-817C-3C5436673C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15AB336-75BD-4967-817C-3C5436673C9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C02D71A8-3F96-42D1-991D-A029E6226717} = {E5D94FD8-BE92-4647-A255-75DD502FBE6E}
+		{65D0DFDB-B1CE-4F3E-BA6F-F3AE81FBE255} = {E5D94FD8-BE92-4647-A255-75DD502FBE6E}
+		{B25FD932-47C0-4C46-A219-87245ECD34AF} = {E5D94FD8-BE92-4647-A255-75DD502FBE6E}
+		{1D429277-1A82-409D-921C-03061898712D} = {E5D94FD8-BE92-4647-A255-75DD502FBE6E}
+		{56E6179D-4C56-4364-B3D6-053B40C949DE} = {1D429277-1A82-409D-921C-03061898712D}
+		{9DEFB2BE-9AC4-4495-B4E9-EA936B324B29} = {1D429277-1A82-409D-921C-03061898712D}
+		{4832003E-E911-4F08-A2DE-2BE151042C95} = {E5D94FD8-BE92-4647-A255-75DD502FBE6E}
+		{37E5A46B-6D48-45BB-A954-2094AC812FD2} = {1D429277-1A82-409D-921C-03061898712D}
+		{C15AB336-75BD-4967-817C-3C5436673C9D} = {1D429277-1A82-409D-921C-03061898712D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C390A2B-F1B1-42B6-8761-AECED54386F7}
+	EndGlobalSection
+EndGlobal

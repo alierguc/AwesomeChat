@@ -1,0 +1,7 @@
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.API\Debug\net7.0\AwesomeChat.API.csproj.AssemblyReference.cache
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.API\Debug\net7.0\AwesomeChat.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.API\Debug\net7.0\AwesomeChat.API.AssemblyInfoInputs.cache
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.API\Debug\net7.0\AwesomeChat.API.AssemblyInfo.cs
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.API\Debug\net7.0\AwesomeChat.API.csproj.CoreCompileInputs.cache
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.API\Debug\net7.0\AwesomeChat.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.API\Debug\net7.0\AwesomeChat.API.MvcApplicationPartsAssemblyInfo.cache

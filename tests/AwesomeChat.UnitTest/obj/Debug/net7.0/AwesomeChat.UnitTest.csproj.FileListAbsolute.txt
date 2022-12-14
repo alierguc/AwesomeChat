@@ -1,0 +1,14 @@
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\tests\AwesomeChat.UnitTest\bin\Debug\net7.0\AwesomeChat.UnitTest.deps.json
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\tests\AwesomeChat.UnitTest\bin\Debug\net7.0\AwesomeChat.UnitTest.runtimeconfig.json
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\tests\AwesomeChat.UnitTest\bin\Debug\net7.0\AwesomeChat.UnitTest.dll
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\tests\AwesomeChat.UnitTest\bin\Debug\net7.0\AwesomeChat.UnitTest.pdb
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\tests\AwesomeChat.UnitTest\obj\Debug\net7.0\AwesomeChat.UnitTest.csproj.AssemblyReference.cache
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\tests\AwesomeChat.UnitTest\obj\Debug\net7.0\AwesomeChat.UnitTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\tests\AwesomeChat.UnitTest\obj\Debug\net7.0\AwesomeChat.UnitTest.AssemblyInfoInputs.cache
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\tests\AwesomeChat.UnitTest\obj\Debug\net7.0\AwesomeChat.UnitTest.AssemblyInfo.cs
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\tests\AwesomeChat.UnitTest\obj\Debug\net7.0\AwesomeChat.UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\tests\AwesomeChat.UnitTest\obj\Debug\net7.0\AwesomeChat.UnitTest.dll
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\tests\AwesomeChat.UnitTest\obj\Debug\net7.0\refint\AwesomeChat.UnitTest.dll
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\tests\AwesomeChat.UnitTest\obj\Debug\net7.0\AwesomeChat.UnitTest.pdb
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\tests\AwesomeChat.UnitTest\obj\Debug\net7.0\AwesomeChat.UnitTest.genruntimeconfig.cache
+C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\tests\AwesomeChat.UnitTest\obj\Debug\net7.0\ref\AwesomeChat.UnitTest.dll

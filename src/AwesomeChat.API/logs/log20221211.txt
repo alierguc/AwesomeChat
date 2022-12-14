@@ -1,0 +1,186 @@
+2022-12-11 23:57:36.231 +03:00 [INF] ********************************************************************************
+2022-12-11 23:57:36.288 +03:00 [INF] Elastic APM .NET Agent, version: 1.19.0.0, file creation time: 8.12.2022 12:02:48 UTC
+2022-12-11 23:57:36.291 +03:00 [INF] Process ID: 27204
+2022-12-11 23:57:36.294 +03:00 [INF] Process Name: AwesomeChat.API
+2022-12-11 23:57:36.295 +03:00 [INF] Operating System: Microsoft Windows 10.0.19045
+2022-12-11 23:57:36.298 +03:00 [INF] CPU architecture: X64
+2022-12-11 23:57:36.300 +03:00 [INF] Host: DESKTOP-4KE4D8K
+2022-12-11 23:57:36.301 +03:00 [INF] Runtime: .NET 7.0.0
+2022-12-11 23:57:36.303 +03:00 [INF] Time zone: (UTC+03:00) İstanbul
+2022-12-11 23:57:36.304 +03:00 [INF] ********************************************************************************
+2022-12-11 23:57:36.314 +03:00 [WRN] {AbstractConfigurationReader (MicrosoftExtensionsConfig)} Service name provided in configuration (AwesomeChat.API) was adapted to AwesomeChat_API
+2022-12-11 23:57:36.320 +03:00 [INF] {AbstractConfigurationReader (MicrosoftExtensionsConfig)} The agent was started without a service version. The service version will be automatically discovered.
+2022-12-11 23:57:36.323 +03:00 [INF] {AbstractConfigurationReader (MicrosoftExtensionsConfig)} The agent was started without a service version. The automatically discovered service version is 1.0.0
+2022-12-11 23:57:36.783 +03:00 [INF] {CentralConfigurationFetcher} Updating ConfigurationStore. New central configuration: [ETag: `"-"']{}
+2022-12-11 23:57:36.787 +03:00 [INF] {ConfigurationStore} Replaced current snapshot. Old: local + central (ETag: `"-"'). New: local + central (ETag: `"-"').
+2022-12-11 23:57:36.836 +03:00 [INF] {MetricsCollector} Collecting metrics in 30000 milliseconds interval
+2022-12-11 23:57:37.242 +03:00 [INF] Now listening on: http://localhost:5015
+2022-12-11 23:57:37.245 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-11 23:57:37.248 +03:00 [INF] Hosting environment: Development
+2022-12-11 23:57:37.249 +03:00 [INF] Content root path: C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.API
+2022-12-11 23:57:40.842 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5015/swagger/index.html - -
+2022-12-11 23:57:41.347 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 367.5273 ms
+2022-12-11 23:57:41.370 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5015/swagger/index.html - - - 200 - text/html;charset=utf-8 537.2966ms
+2022-12-11 23:57:41.397 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5015/_framework/aspnetcore-browser-refresh.js - -
+2022-12-11 23:57:41.403 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5015/_framework/aspnetcore-browser-refresh.js - - - 200 11999 application/javascript;+charset=utf-8 6.7428ms
+2022-12-11 23:57:41.411 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5015/_vs/browserLink - -
+2022-12-11 23:57:41.517 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5015/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 106.1177ms
+2022-12-11 23:57:41.697 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5015/swagger/v1/swagger.json - -
+2022-12-11 23:57:41.898 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 197.4068 ms
+2022-12-11 23:57:41.903 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5015/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 205.7725ms
+2022-12-11 23:57:43.150 +03:00 [WRN] Health check Elastic Search with status "Degraded" completed after 1006.208ms with message 'null'
+2022-12-11 23:57:44.393 +03:00 [INF] Start processing HTTP request POST http://localhost:5341/api/events/raw?apiKey=hA1D36MyVUYSesPi63To
+2022-12-11 23:57:44.396 +03:00 [INF] Sending HTTP request POST http://localhost:5341/api/events/raw?apiKey=hA1D36MyVUYSesPi63To
+2022-12-11 23:57:44.749 +03:00 [INF] Received HTTP response headers after 346.4578ms - 201
+2022-12-11 23:57:44.754 +03:00 [INF] End processing HTTP request after 364.4629ms - 201
+2022-12-11 23:57:45.652 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5015/api/v1/Message/Message/SendChatMessage application/json 116
+2022-12-11 23:57:45.754 +03:00 [INF] Executing endpoint 'AwesomeChat.API.Controllers.v1.MessageController.SendMessage (AwesomeChat.API)'
+2022-12-11 23:57:45.831 +03:00 [INF] Route matched with {action = "SendMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMessage(AwesomeChat.Application.Features.MessageFeatures.Command.CreateMessageCommand) on controller AwesomeChat.API.Controllers.v1.MessageController (AwesomeChat.API).
+2022-12-11 23:57:45.863 +03:00 [INF] MessageController Constructor
+2022-12-11 23:57:50.788 +03:00 [INF] Executing action method AwesomeChat.API.Controllers.v1.MessageController.SendMessage (AwesomeChat.API) - Validation state: "Valid"
+2022-12-11 23:57:51.548 +03:00 [INF] Executed action AwesomeChat.API.Controllers.v1.MessageController.SendMessage (AwesomeChat.API) in 5682.9376ms
+2022-12-11 23:57:51.557 +03:00 [INF] Executed endpoint 'AwesomeChat.API.Controllers.v1.MessageController.SendMessage (AwesomeChat.API)'
+2022-12-11 23:57:51.681 +03:00 [ERR] HTTP POST /api/v1/Message/Message/SendChatMessage responded 500 in 5986.4965 ms
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at AwesomeChat.Application.Features.MessageFeatures.Command.CreateMessageCommand.CreateProductCommandHandler.Handle(CreateMessageCommand command, CancellationToken cancellationToken) in C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Application\Features\MessageFeatures\Command\CreateMessageCommand.cs:line 50
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at AwesomeChat.API.Controllers.v1.MessageController.SendMessage(CreateMessageCommand command) in C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.API\Controllers\v1\MessageController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Elastic.Apm.AspNetCore.ApmMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-12-11 23:57:51.720 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at AwesomeChat.Application.Features.MessageFeatures.Command.CreateMessageCommand.CreateProductCommandHandler.Handle(CreateMessageCommand command, CancellationToken cancellationToken) in C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Application\Features\MessageFeatures\Command\CreateMessageCommand.cs:line 50
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at AwesomeChat.API.Controllers.v1.MessageController.SendMessage(CreateMessageCommand command) in C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.API\Controllers\v1\MessageController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Elastic.Apm.AspNetCore.ApmMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2022-12-11 23:57:51.825 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5015/api/v1/Message/Message/SendChatMessage application/json 116 - 500 - text/plain;+charset=utf-8 6172.5274ms
+2022-12-11 23:58:12.137 +03:00 [WRN] Health check Elastic Search with status "Degraded" completed after 16.6202ms with message 'null'
+2022-12-11 23:58:12.161 +03:00 [INF] Start processing HTTP request POST http://localhost:5341/api/events/raw?apiKey=hA1D36MyVUYSesPi63To
+2022-12-11 23:58:12.163 +03:00 [INF] Sending HTTP request POST http://localhost:5341/api/events/raw?apiKey=hA1D36MyVUYSesPi63To
+2022-12-11 23:58:12.174 +03:00 [INF] Received HTTP response headers after 10.09ms - 201
+2022-12-11 23:58:12.177 +03:00 [INF] End processing HTTP request after 16.3079ms - 201
+2022-12-11 23:58:16.524 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5015/api/v1/Message/Message/SendChatMessage application/json 116
+2022-12-11 23:58:16.532 +03:00 [INF] Executing endpoint 'AwesomeChat.API.Controllers.v1.MessageController.SendMessage (AwesomeChat.API)'
+2022-12-11 23:58:16.535 +03:00 [INF] Route matched with {action = "SendMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMessage(AwesomeChat.Application.Features.MessageFeatures.Command.CreateMessageCommand) on controller AwesomeChat.API.Controllers.v1.MessageController (AwesomeChat.API).
+2022-12-11 23:58:19.140 +03:00 [INF] MessageController Constructor
+2022-12-11 23:58:25.148 +03:00 [INF] Executing action method AwesomeChat.API.Controllers.v1.MessageController.SendMessage (AwesomeChat.API) - Validation state: "Valid"
+2022-12-11 23:58:43.350 +03:00 [WRN] Health check Elastic Search with status "Degraded" completed after 50.714ms with message 'null'
+2022-12-11 23:58:43.424 +03:00 [INF] Start processing HTTP request POST http://localhost:5341/api/events/raw?apiKey=hA1D36MyVUYSesPi63To
+2022-12-11 23:58:43.468 +03:00 [INF] Sending HTTP request POST http://localhost:5341/api/events/raw?apiKey=hA1D36MyVUYSesPi63To
+2022-12-11 23:58:43.538 +03:00 [INF] Received HTTP response headers after 24.5789ms - 201
+2022-12-11 23:58:43.612 +03:00 [INF] End processing HTTP request after 188.2273ms - 201
+2022-12-11 23:58:43.832 +03:00 [INF] Executed action AwesomeChat.API.Controllers.v1.MessageController.SendMessage (AwesomeChat.API) in 27294.3038ms
+2022-12-11 23:58:43.839 +03:00 [INF] Executed endpoint 'AwesomeChat.API.Controllers.v1.MessageController.SendMessage (AwesomeChat.API)'
+2022-12-11 23:58:43.857 +03:00 [ERR] HTTP POST /api/v1/Message/Message/SendChatMessage responded 500 in 27327.1236 ms
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at AwesomeChat.Application.Features.MessageFeatures.Command.CreateMessageCommand.CreateProductCommandHandler.Handle(CreateMessageCommand command, CancellationToken cancellationToken) in C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Application\Features\MessageFeatures\Command\CreateMessageCommand.cs:line 50
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at AwesomeChat.API.Controllers.v1.MessageController.SendMessage(CreateMessageCommand command) in C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.API\Controllers\v1\MessageController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Elastic.Apm.AspNetCore.ApmMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-12-11 23:58:43.877 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at AwesomeChat.Application.Features.MessageFeatures.Command.CreateMessageCommand.CreateProductCommandHandler.Handle(CreateMessageCommand command, CancellationToken cancellationToken) in C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.Application\Features\MessageFeatures\Command\CreateMessageCommand.cs:line 50
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at AwesomeChat.API.Controllers.v1.MessageController.SendMessage(CreateMessageCommand command) in C:\Users\alier\Desktop\AwesomeChat\backend\AwesomeChat\src\AwesomeChat.API\Controllers\v1\MessageController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Elastic.Apm.AspNetCore.ApmMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2022-12-11 23:58:43.894 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5015/api/v1/Message/Message/SendChatMessage application/json 116 - 500 - text/plain;+charset=utf-8 27369.9629ms
+2022-12-11 23:59:12.129 +03:00 [WRN] Health check Elastic Search with status "Degraded" completed after 11.6638ms with message 'null'
+2022-12-11 23:59:12.131 +03:00 [INF] Start processing HTTP request POST http://localhost:5341/api/events/raw?apiKey=hA1D36MyVUYSesPi63To
+2022-12-11 23:59:12.132 +03:00 [INF] Sending HTTP request POST http://localhost:5341/api/events/raw?apiKey=hA1D36MyVUYSesPi63To
+2022-12-11 23:59:12.143 +03:00 [INF] Received HTTP response headers after 8.651ms - 201
+2022-12-11 23:59:12.145 +03:00 [INF] End processing HTTP request after 13.6573ms - 201

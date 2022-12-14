@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AwesomeChat.API</name>
+    </assembly>
+    <members>
+        <member name="M:AwesomeChat.API.Controllers.v1.MessageController.SendMessage(AwesomeChat.Application.Features.MessageFeatures.Command.CreateMessageCommand)">
+            <summary>
+            SendChatMessage
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AwesomeChat.API.Controllers.v1.MessageController.GetTestMessage">
+            <summary>
+            GetTestMessage
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
